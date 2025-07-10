@@ -1,17 +1,16 @@
 <?php
 
-class StudentDiscountChecker{
+class StudentDiscountChecker
+{
     const age = 25;
 
-    public function  apply($value) : bool 
+    public function  apply($value): bool
     {
-        if($value<=self::age){
+        if ($value <= self::age) {
             return true;
-        }else{
+        } else {
             return false;
         }
-        
     }
 }
-
 ?>
